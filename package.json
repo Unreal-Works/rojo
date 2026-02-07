@@ -1,5 +1,5 @@
 {
-  "name": "@antivivi/rojo",
+  "name": "@unrealworks/rojo",
   "version": "0.0.0-rojo7.7.0-rc.1",
   "description": "Enables professional-grade development tools for Roblox developers",
   "main": "index.js",
@@ -7,7 +7,7 @@
   "bin": "cli.js",
   "repository": {
     "type": "git",
-    "url": "git+https://www.github.com/evilbocchi/rojo.git"
+    "url": "git+https://www.github.com/Unreal-Works/rojo.git"
   },
   "publishConfig": {
     "access": "public"
