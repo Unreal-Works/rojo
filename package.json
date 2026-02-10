@@ -1,6 +1,6 @@
 {
-  "name": "@unrealworks/rojo",
-  "version": "0.0.0-rojo7.7.0-rc.1",
+  "name": "@infh/rojo",
+  "version": "7.7.0-rc.1-infh.1",
   "description": "Enables professional-grade development tools for Roblox developers",
   "main": "index.js",
   "types": "index.d.ts",
