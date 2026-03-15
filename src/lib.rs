@@ -188,19 +188,6 @@ pub fn sourcemap(
 }
 
 #[napi]
-pub fn sync(project: String, input: String, output: String) -> Result<(), napi::Error> {
-    use crate::cli::SyncCommand;
-
-    SyncCommand {
-        project: project.into(),
-        input: input.into(),
-        output: output.into(),
-    }
-    .run()
-    .map_err(|e| napi::Error::from_reason(e.to_string()))
-}
-
-#[napi]
 pub fn syncback(
     project: String,
     input: String,
